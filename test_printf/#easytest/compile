@@ -1,0 +1,5 @@
+#!/bin/bash
+cd .. && make bonus
+cd "#easytest"
+cc -g -w -c -o test.o test.c -I../head -I../libft
+cc -g -o main test.o ../libftprintf.a

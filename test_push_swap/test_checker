@@ -1,0 +1,8 @@
+#!/bin/bash
+../checker 4 67 3 87 23 < <(../push_swap 4 67 3 87 23)
+./checker_linux 4 67 3 87 23 < <(../push_swap 4 67 3 87 23)
+../checker 5 2 7 1 6 3 9 4 8 < <(../push_swap 5 2 7 1 6 3 9 4 8)
+./checker_linux 5 2 7 1 6 3 9 4 8 < <(../push_swap 5 2 7 1 6 3 9 4 8)
+./checker_linux "5 2 7 1 6 3 9 4 8" < <(../push_swap "5 2 7 1 6 3 9 4 8")
+../checker "5 2 7 1 6 3 9 4 8" < <(../push_swap "5 2 7 1 6 3 9 4 8")
+../checker 5 2 7 1 6 3 9 4 8

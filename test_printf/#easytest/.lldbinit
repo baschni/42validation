@@ -1,0 +1,4 @@
+file main
+b ft_printf
+run
+command script import print_specs
